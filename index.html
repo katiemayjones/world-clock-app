@@ -4,14 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale-1.0" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
-    <link rel="stylesheet" href="src/styles.css" />
-
-    <style></style>
+    <link rel="stylesheet" href="src/styles.css" type="text/css" />
   </head>
   <body>
-    <label for="city-name">Enter a city.</label>
-    <input type="text" id="city-name" />
+    <div id="opener">
+      <button id="change-theme">Change theme</button>
+      <h1 id="title">World Clock</h1>
+      <h2 id="changeHours">24hr | 12hr</h2>
+    </div>
+    <div id="current-location">
+      <h2 id="current-city">New York</h2>
+      <h2 id="current-date">Monday 7th August 2023</h2>
+      <h2 id="current-time">14:03</h2>
+    </div>
+
+    <div id="dropdown">
+      <select name="cities" id="city-selector">
+        <option value="empty">Choose a city.</option>
+        <option value="empty">Choose a city.</option>
+        <option value="empty">Choose a city.</option>
+        <option value="empty">Choose a city.</option>
+      </select>
+    </div>
+
+    <div id="cities-information">
+      <h3 id="city-one">London 🇬🇧</h3>
+      <h4 id="city-one-date">Today, + 4hr</h4>
+      <h3 id="time-one">14:04</h3>
+
+      <h3 id="city-two">Sofia 🇧🇬</h3>
+      <h4 id="city-two-date">Today, + 4hr</h4>
+      <h3 id="time-two">14:04</h3>
+
+      <h3 id="city-three">Mexico City 🇲🇽</h3>
+      <h4 id="city-three-date">Today, + 4hr</h4>
+      <h3 id="time-three">14:04</h3>
+
+      <h3 id="city-four">Beijing 🇨🇳</h3>
+      <h4 id="city-four-date">Today, + 4hr</h4>
+      <h3 id="time-four">14:04</h3>
+    </div>
+
+    <footer id="footer">Open Source code by Katiemay 👩🏼‍💻</footer>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
