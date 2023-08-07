@@ -65,3 +65,15 @@ footer {
   font-size: 10px;
   font-family: "Anonymous Pro", monospace;
 }
+
+footer {
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #144054;
+}

@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <meta name="viewport" content="width=device-width" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
     <link rel="stylesheet" href="src/styles.css" type="text/css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,7 +33,10 @@
           <h1 class="title" id="title">World Clock</h1>
         </div>
         <div class="col">
-          <h2 class="changeHours" id="changeHours">24hr | 12hr</h2>
+          <h2 class="changeHours" id="changeHours">
+            <span id="twenty-four"><a href="#">24hr</a></span> |
+            <span id="twelve"><a href="#">12hr</a></span>
+          </h2>
         </div>
       </div>
 
@@ -82,7 +86,7 @@
         </div>
       </div>
 
-      <footer id="footer">
+      <footer class="footer" id="footer">
         Open Source code by
         <a href="https://github.com/katiemayjones">Katiemay 👩🏼‍💻</a>
       </footer>
