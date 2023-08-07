@@ -3,9 +3,17 @@ body {
   max-width: 600px;
 }
 
+div {
+  display: block;
+  margin: auto;
+}
 .container-fluid {
-  text-align: center;
-  padding: 0;
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
 }
 
 .themeButton {
@@ -43,6 +51,13 @@ body {
 
 .cities {
   font-family: "Anonymous Pro", monospace;
+}
+
+.cityOneContainer,
+.cityTwoContainer,
+.cityThreeContainer,
+.cityFourContainer {
+  padding: 20px;
 }
 
 .cityOne,
