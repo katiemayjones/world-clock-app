@@ -1,14 +1,16 @@
 body {
-  font-family: "Anonymous Pro", monospace;
   width: 500px;
+  text-align: center;
 }
 
 .themeButton {
   display: block;
   align-items: left;
+  font-family: "Anonymous Pro", monospace;
 }
 
 .title {
+  font-family: "Anonymous Pro", monospace;
   text-align: center;
   font-size: 36px;
 }
@@ -16,18 +18,22 @@ body {
 .changeHours {
   text-align: right;
   font-size: 16px;
+  font-family: "Anonymous Pro", monospace;
 }
 
 .currentLocation {
   text-align: center;
   font-size: 16px;
+  font-family: "Anonymous Pro", monospace;
 }
 
 .dropdown,
 .cities-information {
   text-align: center;
+  font-family: "Anonymous Pro", monospace;
 }
 
 footer {
   text-align: center;
+  font-family: "Anonymous Pro", monospace;
 }
