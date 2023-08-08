@@ -1,12 +1,9 @@
 body {
-  font-family: "Ysabeau Office", sans-serif;
+  font-family: "Anonymous Pro", monospace;
   max-width: 600px;
 }
 
-div {
-  display: block;
-}
-.container-fluid {
+.container {
   max-width: 600px;
   margin: 60px auto;
   background: white;
@@ -16,9 +13,6 @@ div {
 }
 
 .themeButton {
-  display: block;
-  align-items: left;
-  font-family: "Anonymous Pro", monospace;
 }
 
 .title {
@@ -33,6 +27,9 @@ div {
   font-family: "Anonymous Pro", monospace;
 }
 
+.cities {
+ 
+}
 .currentLocation,
 .currentCity,
 .currentDate,
@@ -48,28 +45,11 @@ div {
   font-size: 16px;
 }
 
-.cities {
-  font-family: "Anonymous Pro", monospace;
-  padding: 20px;
-}
-
 .cityOne,
 .cityTwo,
 .cityThree,
 .cityFour {
-  font-size: 16px;
-  text-align: left;
-}
-
-.timeOne,
-.timeTwo,
-.timeThree,
-.timeFour {
   font-size: 14px;
-  text-align: right;
-}
-.cityOneDate {
-  font-size: 16px;
 }
 
 footer {
