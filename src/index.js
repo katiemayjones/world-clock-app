@@ -84,7 +84,7 @@ function updateCity(event) {
             </div>
                   <hr />
 
-      <a href="#"> <h3 class="allCities" id="all-cities">All Cities</h3></a>
+      <a href="https://phenomenal-kashata-10ede3.netlify.app/"> <h3 class="allCities" id="all-cities">All Cities</h3></a>
 
           </div>`;
 }
