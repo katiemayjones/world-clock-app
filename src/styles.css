@@ -60,13 +60,13 @@ body {
 .title {
   font-family: "Anonymous Pro", monospace;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .dark .title {
   font-family: "Anonymous Pro", monospace;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .changeHours {
@@ -89,13 +89,13 @@ body {
 
 .currentTime {
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
   font-family: "Anonymous Pro", monospace;
 }
 
 .currentDate {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Anonymous Pro", monospace;
   opacity: 0.6;
 }
@@ -127,7 +127,7 @@ body {
 .cityTwoDate,
 .cityThreeDate,
 .cityFourDate {
-  font-size: 10px;
+  font-size: 14px;
   opacity: 0.6;
 }
 
