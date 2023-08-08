@@ -1,33 +1,72 @@
 body {
   font-family: "Anonymous Pro", monospace;
   max-width: 600px;
+  margin: 0;
 }
 
+.dark body {
+  font-family: "Anonymous Pro", monospace;
+  max-width: 600px;
+  margin: 0;
+}
 .container {
   max-width: 600px;
   margin: 20px auto;
   background: white;
+  box-shadow: #fbbef5 0px 7px 29px 0px;
+  border-radius: 10px;
   padding: 30px;
+
+  font-family: "Anonymous Pro", monospace;
+}
+
+.dark .container {
+  max-width: 600px;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
   box-shadow: #fbbef5 0px 7px 29px 0px;
   border-radius: 10px;
   font-family: "Anonymous Pro", monospace;
+  color: white;
 }
 
 .themeButton {
   font-family: "Anonymous Pro", monospace;
   text-align: center;
   font-size: 16px;
-  box-shadow: #fbbef5 0px 7px 10px 0px;
+  box-shadow: #fbbef5 0px 5px 5px 0px;
   border-radius: 5px;
+  border: #9f6da3 solid 1px;
   padding: 5px;
   color: #f24de1;
   opacity: 0.7;
+  background-color: white;
+}
+.dark .themeButton {
+  font-family: "Anonymous Pro", monospace;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: #fbbef5 0px 5px 5px 0px;
+  border-radius: 5px;
+  border: #9f6da3 solid 1px;
+  padding: 5px;
+  color: #fbbef5;
+  background-color: black;
 }
 
 .title {
   font-family: "Anonymous Pro", monospace;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.dark .title {
+  font-family: "Anonymous Pro", monospace;
+  text-align: center;
+  font-size: 24px;
 }
 
 .changeHours {
@@ -60,6 +99,7 @@ body {
   font-family: "Anonymous Pro", monospace;
   opacity: 0.6;
 }
+
 .dropdown {
   text-align: center;
   font-family: "Anonymous Pro", monospace;
