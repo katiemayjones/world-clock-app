@@ -5,20 +5,24 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 20px auto;
   background: white;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+  font-family: "Anonymous Pro", monospace;
 }
 
 .themeButton {
+  font-family: "Anonymous Pro", monospace;
+  text-align: center;
+  font-size: 16px;
 }
 
 .title {
   font-family: "Anonymous Pro", monospace;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .changeHours {
@@ -28,42 +32,73 @@ body {
 }
 
 .currentLocation,
-.currentCity,
-.currentDate,
+.currentCity {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Anonymous Pro", monospace;
+}
+
 .currentTime {
   text-align: center;
   font-size: 16px;
   font-family: "Anonymous Pro", monospace;
 }
 
+.currentDate {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Anonymous Pro", monospace;
+  opacity: 0.6;
+}
 .dropdown {
   text-align: center;
   font-family: "Anonymous Pro", monospace;
   font-size: 16px;
+  padding: 10px;
+}
+
+.citiesList {
+  padding: 20px;
+  margin: 10px;
+  font-family: "Anonymous Pro", monospace;
 }
 
 .cityOne,
 .cityTwo,
 .cityThree,
 .cityFour {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .cityOneDate,
 .cityTwoDate,
 .cityThreeDate,
 .cityFourDate {
-  font-size: 14px;
+  font-size: 10px;
+  opacity: 0.6;
 }
 
 .timeOne,
 .timeTwo,
 .timeThree,
 .timeFour {
-  font-size: 16px;
+  font-size: 20px;
   text-align: right;
+  padding: 10px;
 }
 
+.allCities {
+  font-size: 14px;
+}
+
+form {
+  text-align: center;
+  padding: 10px;
+}
+
+.searchCity {
+  margin: 10px;
+}
 footer {
   text-align: center;
   font-size: 10px;
