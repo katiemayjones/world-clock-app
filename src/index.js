@@ -1,5 +1,4 @@
 let currentLocation = moment.tz.guess();
-
 let currentCity = document.querySelector("#current-city");
 currentCity.innerHTML = `${currentLocation.replace("_", " ").split("/")[1]}`;
 

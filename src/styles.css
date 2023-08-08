@@ -8,7 +8,7 @@ body {
   margin: 20px auto;
   background: white;
   padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: #fbbef5 0px 7px 29px 0px;
   border-radius: 10px;
   font-family: "Anonymous Pro", monospace;
 }
@@ -17,6 +17,11 @@ body {
   font-family: "Anonymous Pro", monospace;
   text-align: center;
   font-size: 16px;
+  box-shadow: #fbbef5 0px 7px 10px 0px;
+  border-radius: 5px;
+  padding: 5px;
+  color: #f24de1;
+  opacity: 0.7;
 }
 
 .title {
@@ -31,11 +36,16 @@ body {
   font-family: "Anonymous Pro", monospace;
 }
 
-.currentLocation,
-.currentCity {
+.currentLocation {
   text-align: center;
   font-size: 16px;
   font-family: "Anonymous Pro", monospace;
+}
+.currentCity {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Anonymous Pro", monospace;
+  color: #f24de1;
 }
 
 .currentTime {
@@ -61,6 +71,8 @@ body {
   padding: 20px;
   margin: 10px;
   font-family: "Anonymous Pro", monospace;
+  box-shadow: #fbbef5 0px 7px 29px 0px;
+  border-radius: 10px;
 }
 
 .cityOne,
@@ -68,6 +80,7 @@ body {
 .cityThree,
 .cityFour {
   font-size: 20px;
+  color: #f24de1;
 }
 
 .cityOneDate,
@@ -110,5 +123,5 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
-  color: #144054;
+  color: #f24de1;
 }
