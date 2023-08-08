@@ -50,39 +50,32 @@ div {
 
 .cities {
   font-family: "Anonymous Pro", monospace;
-}
-
-.cityOneContainer,
-.cityTwoContainer,
-.cityThreeContainer,
-.cityFourContainer {
   padding: 20px;
 }
 
 .cityOne,
 .cityTwo,
 .cityThree,
-.cityFour,
-.cityOneDate,
-.cityTwoDate,
-.cityThreeDate,
-.cityFourDate,
+.cityFour {
+  font-size: 16px;
+  text-align: left;
+}
+
 .timeOne,
 .timeTwo,
 .timeThree,
 .timeFour {
+  font-size: 14px;
+  text-align: right;
+}
+.cityOneDate {
   font-size: 16px;
-  text-align: center;
 }
 
 footer {
   text-align: center;
   font-size: 10px;
   font-family: "Anonymous Pro", monospace;
-}
-
-footer {
-  text-decoration: none;
 }
 
 a:link,
