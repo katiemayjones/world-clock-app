@@ -27,9 +27,6 @@ body {
   font-family: "Anonymous Pro", monospace;
 }
 
-.cities {
- 
-}
 .currentLocation,
 .currentCity,
 .currentDate,
@@ -50,6 +47,21 @@ body {
 .cityThree,
 .cityFour {
   font-size: 14px;
+}
+
+.cityOneDate,
+.cityTwoDate,
+.cityThreeDate,
+.cityFourDate {
+  font-size: 14px;
+}
+
+.timeOne,
+.timeTwo,
+.timeThree,
+.timeFour {
+  font-size: 16px;
+  text-align: right;
 }
 
 footer {
